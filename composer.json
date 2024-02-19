@@ -1,0 +1,39 @@
+{
+  "name": "kooditorm/hyperf-ddd",
+  "description": "The Core Package of Domain Driven Architecture Based on hyperf System",
+  "keywords": [
+    "Kooditorm",
+    "hyperf",
+    "hyperf-ddd",
+    "ddd",
+    "Domain Driven Design"
+  ],
+  "homepage": "https://github.com/Kooditorm/hyperf-ddd",
+  "license": "MIT",
+  "author": [
+    {
+      "name": "oswin hu",
+      "email": "oswin-hu@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "hyperf/di": "~v3.0.0",
+    "hyperf/db-connection": "~3.0.0",
+    "hyperf/http-server": "~3.0.0",
+    "hyperf/http-message": "~3.0.0",
+    "hyperf/snowflake": "~v3.0.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^9.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "DCore\\": "src/"
+    },
+    "files": [
+      "src/Supports/helpers.php"
+    ]
+  }
+}
