@@ -1,10 +1,11 @@
 <?php
+declare(strict_types=1);
 
 namespace DCore\Repositories;
 
 use DCore\Exceptions\RepositoryException;
-use Hyperf\Di\Container;
 use Hyperf\DbConnection\Model\Model;
+use Hyperf\Di\Container;
 use Hyperf\Di\Exception\NotFoundException;
 
 abstract class BaseRepository
@@ -22,7 +23,7 @@ abstract class BaseRepository
 
     }
 
-    abstract public function model():string;
+    abstract public function model(): string;
 
 
     /**
