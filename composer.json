@@ -22,7 +22,8 @@
     "hyperf/db-connection": "~3.0.0",
     "hyperf/http-server": "~3.0.0",
     "hyperf/http-message": "~3.0.0",
-    "hyperf/snowflake": "~v3.0.0"
+    "hyperf/snowflake": "~v3.0.0",
+    "hyperf/command": "~v3.0.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
