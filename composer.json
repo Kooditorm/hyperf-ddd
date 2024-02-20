@@ -18,12 +18,12 @@
   ],
   "require": {
     "php": ">=8.0",
-    "hyperf/di": "~v3.0.0",
-    "hyperf/db-connection": "~3.0.0",
-    "hyperf/http-server": "~3.0.0",
-    "hyperf/http-message": "~3.0.0",
-    "hyperf/snowflake": "~v3.0.0",
-    "hyperf/command": "~v3.0.0"
+    "hyperf/di": "~v2.2.0",
+    "hyperf/db-connection": "~v2.2.0",
+    "hyperf/http-server": "~v2.2.0",
+    "hyperf/http-message": "~v2.2.0",
+    "hyperf/snowflake": "~v2.2.0",
+    "hyperf/command": "~v2.2.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
