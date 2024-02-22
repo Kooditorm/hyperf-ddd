@@ -8,6 +8,9 @@ use Hyperf\Command\Command as HyperfCommand;
 #[Command]
 class TestCommand extends HyperfCommand
 {
+    /**
+     * @var string|null
+     */
     protected ?string $name = 'test';
 
     public function handle(): void
