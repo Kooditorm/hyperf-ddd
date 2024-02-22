@@ -36,5 +36,10 @@
     "files": [
       "src/Supports/helpers.php"
     ]
+  },
+  "extra": {
+    "hyperf": {
+      "config": "DCore\\ConfigProvider"
+    }
   }
 }
