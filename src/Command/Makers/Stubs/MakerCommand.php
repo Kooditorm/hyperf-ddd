@@ -8,7 +8,7 @@ class MakerCommand extends HyperfCommand
 {
 
 
-    protected ?string $signature = 'make:ant {table} {path} {--d|del}';
+    protected $signature = 'make:ant {table} {path} {--d|del}';
 
     /**
      * The console command description.
