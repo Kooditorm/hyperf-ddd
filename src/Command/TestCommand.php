@@ -11,7 +11,8 @@ class TestCommand extends HyperfCommand
     /**
      * @var string|null
      */
-    protected ?string $name = 'test';
+    protected $name = 'test';
+
 
     public function handle(): void
     {

@@ -37,6 +37,9 @@
       "src/Supports/helpers.php"
     ]
   },
+  "scripts": {
+    "cs-fix": "php-cs-fixer fix $1"
+  },
   "extra": {
     "hyperf": {
       "config": "DCore\\ConfigProvider"
